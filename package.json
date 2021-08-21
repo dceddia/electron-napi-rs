@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^13.2.1"
+  },
+  "dependencies": {
+    "hi-rust": "./hi-rust"
   }
 }
