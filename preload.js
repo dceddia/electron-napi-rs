@@ -10,3 +10,10 @@ window.addEventListener('DOMContentLoaded', () => {
     replaceText(`${type}-version`, process.versions[type])
   }
 })
+
+// Import the Rust library and expose it globally as `rustLib`
+// in the renderer (also accessible as `window.rustLib`)
+const rustLib = require('hi-rust')
+const { contextBridge } = require('electron')
+contextBridge.exposeInMainWorld('rustLib', rustLib)
+
