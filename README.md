@@ -1,8 +1,14 @@
-# electron-quick-start
+# electron-napi-rs
 
-**Clone and run for a quick way to see Electron in action.**
+This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation, with a couple mods.
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+It also includes a native module written in Rust, using [napi-rs](https://napi.rs) for the bindings.
+
+**Clone and run for a quick way to see Electron + Rust in action.**
+
+Read [the blog post](https://daveceddia.com/napi-rs-electron-example/) for how all the pieces fit together.
+
+---
 
 **Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
 
